@@ -1,0 +1,12 @@
+/* h1{
+    font-size: medium;
+} */
+
+.titulo{
+    font-size: medium;
+}
+
+.container{
+    border: 1px solid black;
+    background-color: bisque;
+}

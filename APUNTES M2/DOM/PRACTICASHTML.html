@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        
+        #contenido{
+            background-color: blue;
+            color:gray;
+        }
+    </style>
+     
+
+</head>
+
+<body>
+    <h1 id="titulo">Clase de DOM</h1>
+    
+    <div id="contenido">
+
+    <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt numquam, excepturi, iste, reiciendis tenetur blanditiis qui labore minima tempore consectetur molestiae perferendis alias placeat. Expedita nesciunt eos facere iusto qui!</p>
+    
+    </div>
+
+        
+    
+    <button id="boton">CLICK AQUI!</button>
+    
+    <script>
+        var boton=document.querySelector("#boton");
+        boton.addEventListener("click",function(){alert ("Haceme click")});
+
+    </script>
+</body>
+
+</html>
